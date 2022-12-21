@@ -16,18 +16,19 @@
                         x:CompileBindings="True">
           <ContentControl.DataTemplates>
 
-            <!-- Document Content -->
+            <!--Document Content-->
             <DataTemplate DataType="dmc:IDocumentContent">
               <DockableControl TrackingMode="Visible">
-                <ContentControl Content="{Binding}" 
+                <PluginContentControl Content="{Binding}"
                                 ContentTemplate="{Binding}" />
+                <PluginContentControl/>
               </DockableControl>
             </DataTemplate>
 
             <!-- Tool Content -->
             <DataTemplate DataType="dmc:IToolContent">
               <DockableControl TrackingMode="Visible">
-                <ContentControl Content="{Binding}" 
+                <ContentControl Content="{Binding}"
                                 ContentTemplate="{Binding}" />
               </DockableControl>
             </DataTemplate>

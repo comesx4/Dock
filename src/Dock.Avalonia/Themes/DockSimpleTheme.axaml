@@ -18,6 +18,7 @@
         <ResourceInclude Source="avares://Dock.Avalonia/Controls/DockControl.axaml" />
         <ResourceInclude Source="avares://Dock.Avalonia/Controls/HostWindowTitleBar.axaml" />
         <ResourceInclude Source="avares://Dock.Avalonia/Controls/HostWindow.axaml" />
+        <ResourceInclude Source="avares://Dock.Avalonia/Plugin/PluginContentControl.axaml" />
         <ResourceInclude Source="avares://Dock.Avalonia/Themes/Accents/Simple.axaml" />
       </ResourceDictionary.MergedDictionaries>
     </ResourceDictionary>

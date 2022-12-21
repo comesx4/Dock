@@ -27,4 +27,13 @@
     <ProjectReference Include="..\Dock.ProportionalStackPanel\Dock.ProportionalStackPanel.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Plugin\PluginContentPresenter.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Plugin\PluginContentControl.axaml.cs">
+      <DependentUpon>PluginContentControl.axaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
 </Project>
